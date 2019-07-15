@@ -1,0 +1,7 @@
+bargarn-pdf:
+  image: bargarn-pdf:latest
+  container_name: bargarn-pdf
+  restart: unless-stopped
+  ports:
+    - "3022:3022"
+    - "9222:9222"
