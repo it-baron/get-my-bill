@@ -7,3 +7,5 @@ npm-debug.*
 *.mobileprovision
 .idea/*
 build/
+_upload.sh
+
