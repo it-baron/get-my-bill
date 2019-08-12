@@ -1,6 +1,6 @@
-bargarn-pdf:
-  image: bargarn-pdf:latest
-  container_name: bargarn-pdf
+get-my-bill:
+  image: get-my-bill:latest
+  container_name: get-my-bill
   restart: unless-stopped
   ports:
     - "3022:3022"
